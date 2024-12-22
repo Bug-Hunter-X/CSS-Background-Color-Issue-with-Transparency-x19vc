@@ -1,0 +1,9 @@
+The following CSS code snippet demonstrates an issue where the specified background color does not correctly apply to the element. 
+```css
+div {
+  background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+  width: 200px;
+  height: 200px;
+}
+```
+This is because the parent element or other elements might have a background color that overrides the semi-transparent color. The semi-transparent color will blend with any existing background color.
